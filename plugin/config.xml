@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>send24</name>
+	<package>send24</package>
+	<loadPriority>5</loadPriority>
+	<version>1.3</version>
+	<provider>ten24, LLC</provider>
+	<providerURL>http://www.ten24web.com</providerURL>
+	<category></category>
+	<settings>
+		<setting>
+			<name>send24domain</name>
+			<label>send24 Domain</label>
+			<hint>send24 domain for the client</hint>
+			<type>TextBox</type>
+			<required>true</required>
+			<validation>None</validation>
+			<regex></regex>
+			<message>Please enter send24 domain</message>
+			<defaultValue></defaultValue>
+			<optionList></optionList>
+			<optionLabelList></optionLabelList>
+		</setting>
+		<setting>
+			<name>apiKey</name>
+			<label>API Key</label>
+			<hint>send24 API Key</hint>
+			<type>TextBox</type>
+			<required>true</required>
+			<validation>None</validation>
+			<regex></regex>
+			<message>Please enter send24 API Key</message>
+			<defaultValue></defaultValue>
+			<optionList></optionList>
+			<optionLabelList></optionLabelList>
+		</setting>
+	</settings>
+	<EventHandlers>
+		<eventHandler event="onApplicationLoad" component="eventHandlers.MainEventHandler" persist="true" />
+	</EventHandlers>
+	<DisplayObjects />
+</plugin>
