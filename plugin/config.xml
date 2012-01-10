@@ -2,11 +2,12 @@
 <plugin>
 	<name>send24</name>
 	<package>send24</package>
+	<directoryFormat>packageOnly</directoryFormat>
 	<loadPriority>5</loadPriority>
-	<version>1.3</version>
+	<version>1.4</version>
 	<provider>ten24, LLC</provider>
 	<providerURL>http://www.ten24web.com</providerURL>
-	<category></category>
+	<category>Utility</category>
 	<settings>
 		<setting>
 			<name>send24domain</name>
